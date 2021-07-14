@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/titleTest"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Test"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLivingRoom"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Living Room"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvKitchen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="110dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Kitchen"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvToilet"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="220dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Toilet"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvBedroom1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="110dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Bedroom1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvBedroom2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="110dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Bedroom2"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvBalcony"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="110dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Balcony"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvSit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="220dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Sitting"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvWalk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="220dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Walking"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvPushUp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="220dp"
+            android:background="#D3D3D3"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Push-Ups"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textTest"
+        android:layout_width="300dp"
+        android:layout_height="31dp"
+        android:layout_weight="0.6"
+        android:scrollbars="vertical"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:background="#ffffff"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Compute Best K" />
+
+        <Button
+            android:id="@+id/buttonTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Identify Position And Activity" />
+
+    </LinearLayout>
+
+</LinearLayout>

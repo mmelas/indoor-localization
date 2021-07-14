@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/titleMtnTrain"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Accelerometer + Gyroscope"
+        android:textSize="20dp" />
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/buttonSit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#D3D3D3"
+            android:text="Sitting" />
+        <Button
+            android:id="@+id/buttonWalk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="110dp"
+            android:background="#D3D3D3"
+            android:text="Walking" />
+
+        <Button
+            android:id="@+id/buttonPushUp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="220dp"
+            android:background="#D3D3D3"
+            android:text="Push-Ups" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textMtnTrain"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_weight="0.6"
+        android:scrollbars = "vertical"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center|top"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonMtnTrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Record Stats" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
